@@ -2,12 +2,14 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "Mood Boost ([https://mood-boost-fe.onrender.com/](https://mood-boost-fe.onrender.com/))"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
+      - The Mood Boost App is designed to enhance users' emotional well-being through engaging and interactive features and was built using a Service-Oriented Architecture (SOA) with a Rails API backend and React frontend.
+      - Assisted in design and creation of backend database and associated Rails model files
+      - Created header/navbar functionality and styling
+      - Wrote front end cypress testing
+      - "Technology Used: Ruby, Rails, Postgresql, React, React-Router, HTML, CSS, JavaScript, RSpec, Cypress"
+    image: "![](/assets/img/mood_boost_fe.png)"
   - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
     description: 
       - Universal Command Line Interface for Amazone Web Services
