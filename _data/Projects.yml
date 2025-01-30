@@ -2,22 +2,26 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "Mood Boost ([https://mood-boost-fe.onrender.com/](https://mood-boost-fe.onrender.com/))"
+  - title: "Mood Boost ([Deployed Site](https://mood-boost-fe.onrender.com/))"
+    github: "Github: [Front End](https://github.com/Mood-Boost/mood_boost_fe)  [Back End](https://github.com/Mood-Boost/mood_boost_be)"
     description: 
-      - The Mood Boost App is designed to enhance users' emotional well-being through engaging and interactive features and was built using a Service-Oriented Architecture (SOA) with a Rails API backend and React frontend.
+      - The Mood Boost App is designed to enhance users' emotional well-being through engaging and interactive features and was built using a Service-Oriented Architecture (SOA) with a Rails API backend and React frontend.  This project was a group project with 5 team members contributing.
       - Assisted in design and creation of backend database and associated Rails model files
-      - Created header/navbar functionality and styling
+      - Created header/navbar functionality and overall styling of the project
+      - Implemented front end friendly error handling for failed fetch requests
       - Wrote front end cypress testing
       - "Technology Used: Ruby, Rails, Postgresql, React, React-Router, HTML, CSS, JavaScript, RSpec, Cypress"
     image: "![](/assets/img/mood_boost_fe.png)"
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
+  - title: "Dice Battle ([Deployed Site](https://dice-battle.netlify.app/))"
+    github: "Github: ([Front End](https://github.com/MiTOBrien/Dice-Battle))" 
     description: 
-      - Universal Command Line Interface for Amazone Web Services
-      - Developed a scheme to facilitate users’ authentication without having to remember their credentials
-      - "Technology Used: Typescript, Python, Go"
-    image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
-  - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
-    description: 
-      - Machine learning library for applications such as computer vision and natural language processing
-      - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+      - An online 2 player game where the objective is to be the first person to reach 100 points rolling a die. This was a solo project.
+      - Developed an attractive user front end with an easy to understand user interface
+      - Wrote JavaScript to display gameplay instructions in a modal, a button for rolling the die and holding to pass to the other play and gameplay logic for keeping track of user turns, score, and determining the winner
+      - "Technology Used: HTML, CSS, JavaScript"
+    image: "![](assets/img/dicebattle.png)"
+  # - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
+  #   description: 
+  #     - Machine learning library for applications such as computer vision and natural language processing
+  #     - "Technology Used: Python, Cuda, Objective-C++"
+  #   image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
