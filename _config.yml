@@ -10,9 +10,9 @@ address: Grand Island, USA
 email: obrien.michael.t@gmail.com
 linkedin_username: michaelobrien67
 github_username: MiTOBrien
-instagram_username: instagram
-twitter_username: twitter
-facebook_username: facebook
+# instagram_username: instagram
+# twitter_username: twitter
+# facebook_username: facebook
 
 theme: jekyll-professional-resume
 
