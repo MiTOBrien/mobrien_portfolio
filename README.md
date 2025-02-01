@@ -1,6 +1,8 @@
-# portfolio-template
+# Michael O'Brien Portfolio
 
-Welcome to the Portfolio Template repository! This template provides a simple starting point for students to create their own personal portfolio websites using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/). Follow the instructions below to fork the repository, customize it, and publish your site. This repo is just a starting place. Feel free to make your own modifications, or use different tooling entirely for your own portfolio site.
+This is my personal portfolio site built using [Jekyll](https://jekyllrb.com/) and hosted on [Netlify](https://mobrienportfolio.netlify.app/).
+
+If you would like to use this as a template to create your own portfolio site follow the steps below.
 
 ## Prerequisites
 
@@ -16,23 +18,18 @@ Before you begin, ensure you have the following:
    - Click the "Fork" button at the top right of this page to create a copy of this repository in your GitHub account.
    - Remove "`-template`" from your new repo name so that the repo name is just "`portfolio`", or whatever you'd like to name it.
 
-2. **Enable GitHub Actions **
-   - Browse to your forked repository on GitHub.
-   - Navigate to the `Actions` tab.
-   - Confirm that you'd like to use the GitHub Actions copied over from the fork defined in the `.github/workflows` directory.
-
-3. **Clone Your Fork**
+2. **Clone Your Fork**
    - Open your terminal and run the following command, replacing `YOUR_USERNAME` with your GitHub username and `YOUR_REPO_NAME` with your chosen repo name:
      ```
      git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
      ```
 
-4. **Navigate to the Project Directory**
+3. **Navigate to the Project Directory**
    ```
    cd YOUR_REPO_NAME
    ```
 
-5. **Install Dependencies**
+4. **Install Dependencies**
    - Run the following command to install the required gems:
      ```
      bundle install
@@ -47,11 +44,14 @@ Before you begin, ensure you have the following:
 2. **Add Your Content**
    - You can add your own new sections in the `_data` directory, and/or modify the existing ones.
 
-
 3. **Run the Site Locally**
    - Use the following command to serve your site locally and see the changes:
      ```bash
      jekyll serve
+     ```
+   - If you get an error run:
+     ```bash
+     bundle exec jekyll serve
      ```
 
 ## Deploying Your Site
@@ -64,9 +64,21 @@ Before you begin, ensure you have the following:
     git push origin main
     ```
 
+2. **Create a Netlify account or log into your account**
+- I recommend logging in with your Github account
+- On the left hand menu bar click on "Sites"
+- On the right hand site click on "Add new site" and select "Import an existing project"
+- Select "GitHub"
+- It will ask you to 'authorize' your account
+- Choose your portfolio project from the list of repositories
+- I recommend giving it a meaningful site name or it will assign something random that will make your page harder to find.  i.e. yourname_portfolio
+- Make sure your 'main' branch is selected to deploy (It should be by default)
+- Scroll to the bottom and choose deploy
+
+
 2. **Visit Your Site**
-   - Your site should be live at `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`.
-   - You can check your GitHub Pages status and settings under `Settings > Pages` in your repo.
+   - Your site should be live at `https://YOURSITENAME.netlify.app`.
+   - You can check your deployed status under the sites tab to confirm when your site is deployed and live.
 
 ## (Optional) Choosing a Different Jekyll Theme
 
@@ -85,25 +97,3 @@ If you want to use a different Jekyll theme, follow these steps:
 
 3. **Update the Configuration**
    - Modify the `_config.yml` file to include the new theme name
-
-## (Optional) Using a CNAME File for Custom Domain
-
-If you want to use a custom domain for your GitHub Pages site rather than using the free github.io domain, follow these steps:
-
-1. **Purchase a Domain**
-   - Buy a domain from a domain registrar of your choice.
-
-2. **Create a CNAME File**
-   - In the root of your repository, create a file named `CNAME` (no file extension).
-   - Inside the `CNAME` file, add your custom domain (e.g., www.yourcustomdomain.com).
-
-3. **Configure DNS Settings**
-   - Go to your domain registrar's website and configure the DNS settings to point to GitHub Pages. You will typically need to set up an A record pointing to GitHub's IP addresses and/or a CNAME record pointing to your GitHub Pages URL. See the [docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) for more info.
-
-4. **Update GitHub Pages Settings**
-   - Go to your repository on GitHub.
-   - Navigate to `Settings` > `Pages`.
-   - Ensure your custom domain is listed under "Custom domain."
-
-5. **Wait for DNS Propagation**
-   - It may take some time for the DNS changes to propagate. Once complete, your site should be accessible via your custom domain.
