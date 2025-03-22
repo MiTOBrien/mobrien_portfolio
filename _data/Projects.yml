@@ -2,6 +2,16 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
+  - title: "Tracker-CRM ([Deployed Site](https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/))"
+    github: "Github: [Front End](https://github.com/turingschool/tracker-crm-fe) [Back End](https://github.com/turingschool/tracker-crm)"
+    description: 
+      - The Tracker-CRM App is a full-featured job tracking board with user login functionality that allows the users to track companies, contacts, and job applications built using a Service-Oriented Architecture (SOA) with a Rails API backend and React frontend using TypeScript. This was our capstone project for graduation with a 12 member team.
+      - Implememted all back end functionality for deleting a job application will full RSpec testing
+      - Co-authored full delete functionality on the front end, creating a reusable component that would delete companies, contacts, and job applications
+      - Implemented delete functionality for job applications on the front end in TypeScript and fully tested with Cypress
+      - Implemented conditional button logic on the home page to prompt users to create a company, contact, or job application if they had not done so in the past 7 days
+      - "Technology Used: Ruby, Rails, PostgresSql, React, TypeScript, TailwindCSS, RSpec, Cypress, CircleCI"
+    image: "![](assets/img/tracker.png)"
   - title: "Mood Boost ([Deployed Site](https://mood-boost-fe.onrender.com/))"
     github: "Github: [Front End](https://github.com/Mood-Boost/mood_boost_fe)  [Back End](https://github.com/Mood-Boost/mood_boost_be)"
     description: 
@@ -10,7 +20,7 @@ contents:
       - Created header/navbar functionality and overall styling of the project
       - Implemented front end friendly error handling for failed fetch requests
       - Wrote front end cypress testing
-      - "Technology Used: Ruby, Rails, Postgresql, React, React-Router, HTML, CSS, JavaScript, RSpec, Cypress"
+      - "Technology Used: Ruby, Rails, PostgresSql, React, React-Router, HTML, CSS, JavaScript, RSpec, Cypress"
     image: "![](/assets/img/mood_boost_fe.png)"
   - title: "Dice Battle ([Deployed Site](https://dice-battle.netlify.app/))"
     github: "Github: ([Front End](https://github.com/MiTOBrien/Dice-Battle))" 
@@ -20,8 +30,3 @@ contents:
       - Wrote JavaScript to display gameplay instructions in a modal, a button for rolling the die and holding to pass to the other play and gameplay logic for keeping track of user turns, score, and determining the winner
       - "Technology Used: HTML, CSS, JavaScript"
     image: "![](assets/img/dicebattle.png)"
-  # - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
-  #   description: 
-  #     - Machine learning library for applications such as computer vision and natural language processing
-  #     - "Technology Used: Python, Cuda, Objective-C++"
-  #   image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
