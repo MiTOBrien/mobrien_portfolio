@@ -2,6 +2,16 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
+  - title: "Cipher Genius ([Deployed Site](https://cipher-genius.onrender.com/))"
+    github: "Github: [Front End](https://github.com/MiTOBrien/cipher_genius_fe) [Back End](https://github.com/MiTOBrien/cipher_genius_be)"
+    description:
+      - Cipher Genius is a web based cipher based puzzle game. You can create an account and it will track the number of ciphers you have solved in each category and the time it took to solve the cipher. If you don't want to create an account you have the option to continue as a guest as solve cipher puzzles. This application was built with a Rails API backend and a Vue.js frontend. This application was a solo development project completed after finishing Turing School of Sofware & Design.
+      - Implememted Devise with JWT for user authenticaiton and authorization on the backend with JWT which was a new technology I had never used.
+      - The frontend was built with Vue.js as a strech technology learning goal.
+      - Created reusable fetch component for fetching quotes to be used for the different typese of cipher puzzles
+      - Created reusable timer component for tracking the time spent on a cipher puzzle across the different types of cipher puzzles
+      - "Technology Used: Ruby, Rails, PostgresSQL, Vue.js, CSS, RSpec"
+    image: "![](/assets/img/Cipher-Genius.png)"
   - title: "Tracker-CRM ([Deployed Site](https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/))"
     github: "Github: [Front End](https://github.com/turingschool/tracker-crm-fe) [Back End](https://github.com/turingschool/tracker-crm)"
     description: 
