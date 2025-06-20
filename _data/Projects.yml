@@ -3,7 +3,7 @@ listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "Angi-Lynn Storm Author Site"
-    gitbub: "Github: [](https://github.com/MiTOBrien/angi-lynn_storm-author)"
+    gitbub: "Github: [Front End](https://github.com/MiTOBrien/angi-lynn_storm-author)"
     description:
       - Mobile-Friendly author page for Angi-Lynn Storm, an independent book author
       - Features a carousel on the homepage showing current releases
