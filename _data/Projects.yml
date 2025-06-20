@@ -3,7 +3,7 @@ listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "Angi-Lynn Storm Author Site"
-    gitbub: "Github: (https://github.com/MiTOBrien/angi-lynn_storm-author)"
+    gitbub: "Github: [](https://github.com/MiTOBrien/angi-lynn_storm-author)"
     description:
       - Mobile-Friendly author page for Angi-Lynn Storm, an independent book author
       - Features a carousel on the homepage showing current releases
@@ -12,7 +12,7 @@ contents:
       - An upcoming releases pages that includes thumbnail book covers of upcoming releases. Clicking on the thumbnail on mobile, on hovering on a computer will pop up a modal with a blurb about the book
       - Footer with links to all social media sites
       - "Technology used: Vue.js, Vue Router"
-    image: "![](/assets/image/AngiLynnStorm.png)"
+    image: "![](assets/img/AngiLynnStorm.png)"
   - title: "Cipher Genius ([Deployed Site](https://cipher-genius.onrender.com/))"
     github: "Github: [Front End](https://github.com/MiTOBrien/cipher_genius_fe) [Back End](https://github.com/MiTOBrien/cipher_genius_be)"
     description:
