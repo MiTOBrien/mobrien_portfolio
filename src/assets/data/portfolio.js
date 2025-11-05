@@ -20,6 +20,25 @@ export const portfolioData = {
   ],
   projects: [
     {
+      id: 7,
+      title: 'Early Draft Society',
+      icon: '🌤️',
+      image: '/images/projects/ocalarocks.png',
+      description:
+        'Mobile-friendly subscription based website to connect authors with arc/beta/proof readers.',
+      workDone: [
+        'Access controlled subscription based content for different user roles including authors, readers, and admins',
+        'Stripe API integration for subscription payments and management granting/revoking access to content based on subscription status (free, monthly, quarterly, yearly, lifetime)',
+        'Database management for admins including user management and content management',
+      ],
+      technologies: ['Vue', 'Vue-Router', 'JavaScript', 'HTML', 'CSS', 'Ruby', 'Rails', 'PostgreSQL', 'RSpec', 'FactoryBot', 'Faker', 'Devise', 'JWT', 'Stripe API', 'Mailgun API', 'CloudFlare'],
+      links: {
+        deployed: 'https://earlydraftsociety.com',
+        frontend: 'https://github.com/MiTOBrien/eds',
+        backend: 'https://github.com/MiTOBrien/ebs-be',
+      },
+    },
+    {
       id: 6,
       title: 'Ocala Rock Climbing Association - ORCA',
       icon: '🌤️',
