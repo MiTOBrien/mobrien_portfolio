@@ -23,7 +23,7 @@ export const portfolioData = {
       id: 7,
       title: 'Early Draft Society',
       icon: '🌤️',
-      image: '/images/projects/ocalarocks.png',
+      image: '/images/projects/eds_login_page.png',
       description:
         'Mobile-friendly subscription based website to connect authors with arc/beta/proof readers.',
       workDone: [
