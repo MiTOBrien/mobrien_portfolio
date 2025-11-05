@@ -23,6 +23,7 @@ export const portfolioData = {
       id: 7,
       title: 'Early Draft Society',
       icon: '📖',
+      type: 'Freelance Work',
       image: '/images/projects/eds_login_page.png',
       description:
         'Mobile-friendly subscription based website to connect authors with arc/beta/proof readers.',
@@ -42,6 +43,7 @@ export const portfolioData = {
       id: 6,
       title: 'Ocala Rock Climbing Association - ORCA',
       icon: '⛰️',
+      type: 'Freelance Work',
       image: '/images/projects/ocalarocks.png',
       description:
         'This is a mobile-friendly SPA website that was developed for the Ocala Rock Climbing Association (ORCA) to provide information about outdoor rock climbing in the Ocala/Lake County Florida area.',
@@ -60,6 +62,7 @@ export const portfolioData = {
       id: 5,
       title: 'Author Website - Angi-Lynn Storm',
       icon: '📝',
+      type: 'Freelance Work',
       image: '/images/projects/AngiLynnStorm.png',
       description:
         'This site was developed for Angi-Lynn Storm, an independent author. She requested a mobile-friendly SPA author website to display her current releases, upcoming releases, an about page and the ability for users to sign up to be beta readers for her upcoming releases.',
@@ -80,6 +83,7 @@ export const portfolioData = {
       id: 4,
       title: 'Cipher Genius',
       icon: '🧮',
+      type: 'Solo Project',
       image: '/images/projects/CipherGeniusHomePage.png',
       description:
         "Cipher Genius is a web based cipher based puzzle game. You can create an account and it will track the number of ciphers you have solved in each category and the time it took to solve the cipher. If you don't want to create an account you have the option to continue as a guest and solve cipher puzzles. This application was built with a Rails API backend and a Vue.js frontend. This application was a solo development project completed after finishing Turing School of Sofware & Design.",
@@ -113,6 +117,7 @@ export const portfolioData = {
       id: 3,
       title: 'Tracker-CRM',
       icon: '📋',
+      type: 'Capstone Project',
       image: '/images/projects/tracker.png',
       description:
         'The Tracker-CRM App is a full-featured job tracking board with user login functionality that allows the users to track companies, contacts, and job applications built using a Service-Oriented Architecture (SOA) with a Rails API backend and React frontend using TypeScript. This was our capstone project for graduation with a 12 member team.',
@@ -146,6 +151,7 @@ export const portfolioData = {
       id: 2,
       title: 'Mood Boost',
       icon: '🥰',
+      type: 'Group Project',
       image: '/images/projects/mood_boost_fe.png',
       description:
         'The Mood Boost App is designed to enhance users’ emotional well-being through engaging and interactive features and was built using a Service-Oriented Architecture (SOA) with a Rails API backend and React frontend. This project was a group project with 5 team members contributing.',
@@ -176,6 +182,7 @@ export const portfolioData = {
       id: 1,
       title: 'Dice Battle Game',
       icon: '🎲',
+      type: 'Solo Project',
       image: '/images/projects/dicebattle.png',
       description:
         'An online 2 player game where the objective is to be the first person to reach 100 points rolling a die.',
