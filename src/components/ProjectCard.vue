@@ -21,6 +21,9 @@ const handleImageError = (event) => {
       </div>
       <div class="project-title-section">
         <h3 class="project-title">{{ project.title }}</h3>
+        <div v-if="project.type" class="project-type">
+          {{ project.type }}
+        </div>
         <div class="project-links" v-if="project.links">
           <a
             v-if="project.links.deployed"
@@ -174,6 +177,17 @@ const handleImageError = (event) => {
 .project-icon {
   font-size: 3rem;
   flex-shrink: 0;
+}
+
+.project-type {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #718096;
+  background: #edf2f7;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 .project-title-section {

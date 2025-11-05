@@ -55,7 +55,7 @@ const particleStyle = () => {
           </a>
         </div>
 
-        <a href="#about" class="cta-button" @click="scrollTo('about')">Discover My Work</a>
+        <a href="#about" class="cta-button" @click="scrollTo('about')">About Me</a>
       </div>
     </div>
     <div v-for="n in 20" :key="n" class="particle" :style="particleStyle()"></div>
