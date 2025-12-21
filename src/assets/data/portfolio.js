@@ -20,7 +20,7 @@ export const portfolioData = {
   ],
   projects: [
     {
-      id: 7,
+      id: 8,
       title: 'Early Draft Society',
       icon: '📖',
       type: 'Freelance Work',
@@ -32,11 +32,48 @@ export const portfolioData = {
         'Stripe API integration for subscription payments and management granting/revoking access to content based on subscription status (free, monthly, quarterly, yearly, lifetime)',
         'Database management for admins including user management and content management',
       ],
-      technologies: ['Vue', 'Vue-Router', 'JavaScript', 'HTML', 'CSS', 'Ruby', 'Rails', 'PostgreSQL', 'RSpec', 'FactoryBot', 'Faker', 'Devise', 'JWT', 'Stripe API', 'Mailgun API', 'CloudFlare'],
+      technologies: [
+        'Vue',
+        'Vue-Router',
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'Ruby',
+        'Rails',
+        'PostgreSQL',
+        'RSpec',
+        'FactoryBot',
+        'Faker',
+        'Devise',
+        'JWT',
+        'Stripe API',
+        'Mailgun API',
+        'CloudFlare',
+      ],
       links: {
         deployed: 'https://earlydraftsociety.com',
         frontend: 'https://github.com/MiTOBrien/eds',
         backend: 'https://github.com/MiTOBrien/ebs-be',
+      },
+    },
+    {
+      id: 7,
+      title: 'Lake County YoYo Club - LCYCC',
+      icon: '⛰️',
+      type: 'Freelance Work',
+      image: '/images/projects/lcyyc_homepage.png',
+      description:
+        'This is a mobile-friendly SPA website created for the Lake County YoYo Club (LCYCC). It allows yoyo enthusiasts to find and connect with other members in the Lake County Florida area.',
+      workDone: [
+        'Displays the date for the next LCYCC meeting on the homepage that automatically updates based on the current date and time',
+        'Includes a section that contains the benefits that yoyo has on the body and mind',
+        'Contains a section for lessons that cand be in person or online',
+        'Includes a links section for recommended yoyo stores, and resources',
+      ],
+      technologies: ['Vue', 'Vue-Router', 'JavaScript', 'HTML', 'CSS'],
+      links: {
+        deployed: 'https://lcyoyo.club/',
+        github: 'https://github.com/MiTOBrien/lcyyc-v2',
       },
     },
     {
@@ -196,6 +233,20 @@ export const portfolioData = {
         deployed: 'https://dice-battle.netlify.app/',
         github: 'https://github.com/MiTOBrien/Dice-Battle',
       },
+    },
+  ],
+  reviews: [
+    {
+      name: 'Angi-Lynn Storm',
+      text: 'After publishing my first book series I felt I needed a professional website to showcase my work and connect with readers. Michael was extremely easy to work with, listening to my wishes for my online presence and was able to create a website that not only showcases my work but also provides a platform for readers to connect with me. His attention to detail and creativity were evident in every aspect of the project.',
+    },
+    {
+      name: 'Ocala Rock Climbing Association - ORCA',
+      text: 'Our website was quite honestly a mess before Michael took over with oversized images and an unstructured layout. Michael was able to transform it into a user-friendly and visually appealing website. His work was top-notch and we are very satisfied with the final product.',
+    },
+    {
+      name: 'Lake County YoYo Club',
+      text: 'We wanted to expand our online presence and needed a modern, responsive website that would showcase our activities and attract new members. Michael delivered a website that was exactly what we asked for, perfectly captured our brand and values. His communication throughout the process was excellent, and he was always responsive to our requests.',
     },
   ],
   experience: [
