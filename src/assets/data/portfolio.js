@@ -248,6 +248,10 @@ export const portfolioData = {
       name: 'Lake County YoYo Club',
       text: 'We wanted to expand our online presence and needed a modern, responsive website that would showcase our activities and attract new members. Michael delivered a website that was exactly what we asked for, perfectly captured our brand and values. His communication throughout the process was excellent, and he was always responsive to our requests.',
     },
+    {
+      name: 'Early Draft Society',
+      text: 'When we came up with the idea of creating a website designed to create arc, beta, and proof readers with authors we were unsure of how to proceed. Michael was not only patient and understanding but also provided valuable insights and guidance throughout the entire process, keeping us involved every step of the way. The final product exceeded our expectations, and we are grateful for his expertise and dedication.',
+    },
   ],
   experience: [
     {
