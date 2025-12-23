@@ -134,6 +134,8 @@ export const portfolioData = {
         'Ruby',
         'Rails',
         'PostgreSQL',
+        'Devise',
+        'JWT',
         'Vue.js',
         'Vue-Router',
         'JavaScript',
