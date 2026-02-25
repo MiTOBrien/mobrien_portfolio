@@ -20,6 +20,37 @@ export const portfolioData = {
   ],
   projects: [
     {
+      id: 9,
+      title: 'Track My Blood Pressure',
+      icon: '📖',
+      type: 'Freelance Work',
+      image: '/images/projects/trackmybp.png',
+      description:
+        'Mobile-friendly easy to use webiste  for users to track their blood pressure readings. You can quickly aneasily enter your blood pressure readings and the app will display your readings on your homepage along with a visual indicator of your blood pressure status.',
+      workDone: [
+        'Implemented user authentication and authorization with JWT and Bcrypt.js for secure login and registration functionality',
+        'Configured Pinia for state management to manage user authentication status and blood pressure readings across the application',
+        'Utilized Resend for sending forgot password email with a secure link to reset the password',
+      ],
+      technologies: [
+        'Vue',
+        'Vue-Router',
+        'Pinia',
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'Bcrpypt.js',
+        'JWT',
+        'PostgreSQL',
+        'Resend',
+        'Netlify "serverless" backend functions',
+      ],
+      links: {
+        deployed: 'https://trackmybp.netlify.app',
+        github: 'https://github.com/MiTOBrien/mybp',
+      },
+    },
+    {
       id: 8,
       title: 'Early Draft Society',
       icon: '📖',
