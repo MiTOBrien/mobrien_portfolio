@@ -31,6 +31,7 @@ export const portfolioData = {
         'Implemented user authentication and authorization with JWT and Bcrypt.js for secure login and registration functionality',
         'Configured Pinia for state management to manage user authentication status and blood pressure readings across the application',
         'Utilized Resend for sending forgot password email with a secure link to reset the password',
+        'Insights page that offers 7, 30, and 90 day views of blood pressure reading summaries, morning vs. evening compaprison, and a chart with visual indicators of blood pressure status',
       ],
       technologies: [
         'Vue',
